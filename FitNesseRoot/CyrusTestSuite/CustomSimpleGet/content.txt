@@ -1,0 +1,7 @@
+|script  |http browser            |
+|set host|localhost               |
+|set port|5000                    |
+|get     |/                       |
+|ensure  |response code equals|200|
+|get     |/foo                    |
+|ensure  |response code equals|200|
