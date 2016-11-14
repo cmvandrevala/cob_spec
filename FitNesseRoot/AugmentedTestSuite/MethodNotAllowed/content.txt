@@ -15,5 +15,5 @@
 |ensure        |response code equals  | 405 |
 |delete        |/file2                      |
 |ensure        |response code equals  | 405 |
-|option        |/random_url                 |
+|options       |/random_url                 |
 |ensure        |response code equals  | 404 |
