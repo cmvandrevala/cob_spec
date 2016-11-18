@@ -103,6 +103,10 @@ public class HttpBrowser {
         return latestResponseCode == code;
     }
 
+	public int responseCode() {
+		return latestResponseCode;
+	}
+
     public boolean bodyHasContent(String content) throws IOException {
         return latestResponseContentAsString().contains(content);
     }

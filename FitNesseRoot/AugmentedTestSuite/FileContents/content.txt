@@ -3,4 +3,4 @@
 |set port|5000                               |
 |get     |/file1                             |
 |ensure  |body has file contents|public/file1|
-|ensure  |response code equals|200|
+|check  |response code|200|

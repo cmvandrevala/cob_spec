@@ -3,7 +3,7 @@
 |set port|5000                    |
 |set data|"My"="Data"             |
 |put     |/form                   |
-|ensure  |response code equals|200|
+|check  |body has no content | true|
 |set data|data=foo |
 |put | /foo |
 |get | /foo |
